@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b530a36e-2863-4f80-b7dc-ca53d8455f83" name="Changes" comment="Zadanie 7">
-      <change afterPath="$PROJECT_DIR$/src/company/Sellable.java" afterDir="false" />
+    <list default="true" id="b530a36e-2863-4f80-b7dc-ca53d8455f83" name="Changes" comment="Zadanie 8">
+      <change afterPath="$PROJECT_DIR$/src/creatures/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creatures/FarmAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creatures/Feedable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creatures/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creatures/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673007179967</updated>
-      <workItem from="1673007181271" duration="3431000" />
+      <workItem from="1673007181271" duration="4983000" />
     </task>
     <task id="LOCAL-00001" summary="Zadanie 0">
       <created>1673007315125</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673009740256</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Zadanie 8">
+      <created>1673010724671</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673010724671</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +158,7 @@
     <MESSAGE value="Zadanie 5" />
     <MESSAGE value="Zadanie 6" />
     <MESSAGE value="Zadanie 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 7" />
+    <MESSAGE value="Zadanie 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 8" />
   </component>
 </project>
