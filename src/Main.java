@@ -59,5 +59,9 @@ public class Main {
         System.out.println(chg);
 
         System.out.println(P3);
+
+        phone.turnOn();
+
+        carX.turnOn();
     }
 }
