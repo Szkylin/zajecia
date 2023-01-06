@@ -20,6 +20,19 @@ public class Main {
         me.setSalary(-100.0);
         me.setSalary(3200.0);
         me.getSalary();
+        Car chg = new Car("Lambo", "Black", 240,  6500.0);
 
+
+        Human P1 = new Human("Paweł", "Sikora", 200.0);
+
+        P1.setCar(chg);
+
+        Human P2 = new Human("Klaudiusz","Męczek",1500.0);
+
+        P2.setCar(chg);
+
+        Human P3 = new Human("Mateusz", "Król", 1000000.0);
+
+        P3.setCar(chg);
     }
 }

@@ -7,7 +7,7 @@ public class Car {
 
 
 
-    Car(String model, String color, Integer speed, Double value) {
+    public Car(String model, String color, Integer speed, Double value) {
         this.model = model;
         this.color = color;
         this.Speed = speed;

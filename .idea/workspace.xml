@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b530a36e-2863-4f80-b7dc-ca53d8455f83" name="Changes" comment="Zadanie 2">
+    <list default="true" id="b530a36e-2863-4f80-b7dc-ca53d8455f83" name="Changes" comment="Zadanie 4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -60,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673007179967</updated>
-      <workItem from="1673007181271" duration="1196000" />
+      <workItem from="1673007181271" duration="1520000" />
     </task>
     <task id="LOCAL-00001" summary="Zadanie 0">
       <created>1673007315125</created>
@@ -83,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673008247653</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Zadanie 4">
+      <created>1673008525700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673008525700</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +113,7 @@
     <MESSAGE value="Zadanie 0" />
     <MESSAGE value="Zadanie 1" />
     <MESSAGE value="Zadanie 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 2" />
+    <MESSAGE value="Zadanie 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 4" />
   </component>
 </project>
