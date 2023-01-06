@@ -1,5 +1,6 @@
 package devices;
-
+import company.Human;
+import company.Sellable;
 public abstract class Device {
 
     public String producer;
