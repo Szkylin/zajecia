@@ -1,7 +1,6 @@
 package company;
 import company.Human;
-import devices.Car;
-import devices.Phone;
+import devices.*;
 import creatures.Animal;
 import creatures.Pet;
 
@@ -18,19 +17,19 @@ public class Main {
         cat.takeForWalk();
         cat.feed();
         Human me = new Human("Piotr", "Kowalski", 3600.0);
-        Car car1 = new Car("Golf5", "Red", 220, 15000.0);
+        Car car1 = new Electric("Golf5", "Red", 220, 15000.0);
         me.setSalary(-200.0);
         me.setSalary(3200.0);
         me.getSalary();
-        Car chg = new Car("Lambo", "Black", 240,  6500.0);
+        Car chg = new Diesel("Lambo", "Black", 240,  6500.0);
         Human P1 = new Human("Paweł", "Sikora", 200.0);
         P1.setCar(chg);
         Human P2 = new Human("Klaudiusz","Męczek",1500.0);
         P2.setCar(chg);
         Human P3 = new Human("Mateusz", "Król", 1000000.0);
         P3.setCar(chg);
-        Car carX = new Car("AudiA4", "Red", 220, 2000.0);
-        Car carY = new Car("AudiA5", "Green", 240, 1500.0);
+        Car carX = new LPG("AudiA4", "Red", 220, 2000.0);
+        Car carY = new Diesel("AudiA5", "Green", 240, 1500.0);
         System.out.println("Print whole object:");
         System.out.println(carX);
         System.out.println(carY);
@@ -48,7 +47,7 @@ public class Main {
 
         Animal petForSale = new Pet("dog", "Max",50.0,3);
 
-        Car carForSale = new Car( "Maluch", "Purple", 160, 1000.0);
+        Car carForSale = new Electric( "Maluch", "Purple", 160, 1000.0);
 
         Human buyer1 = new Human("Mariusz", "Kaczmarek", 3500.0);
         Human buyer2 = new Human("Damian", "Modrzew", 5500.0);
@@ -69,5 +68,7 @@ public class Main {
         carForSale.sell(buyer2, seller2, 3000.0);
         System.out.println("After transaction:" + " Buyer cash: " + buyer2.getCash() + " Buyer car: " + buyer2.getCar() +
                 " Seller cash: " + seller2.getCash() + " Seller car: " + seller2.getCar());
+        carX.refuel();
     }
+
 }
